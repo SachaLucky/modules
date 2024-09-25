@@ -1,0 +1,695 @@
+{
+  "type": "function",
+  "position": 0,
+  "operations": [
+    {
+      "action": "set_variable_get_list_length",
+      "values": [
+        {
+          "name": "variable",
+          "value": {
+            "type": "variable",
+            "variable": "player_amount",
+            "scope": "local"
+          }
+        },
+        {
+          "name": "list",
+          "value": {
+            "type": "variable",
+            "variable": "players",
+            "scope": "local"
+          }
+        }
+      ]
+    },
+    {
+      "action": "player_show_inventory_menu",
+      "values": [
+        {
+          "name": "items",
+          "value": {
+            "type": "array",
+            "values": [
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              }
+            ]
+          }
+        },
+        {
+          "name": "name",
+          "value": {
+            "type": "text",
+            "text": "Игроков: 0",
+            "parsing": "legacy"
+          }
+        }
+      ]
+    },
+    {
+      "action": "player_expand_inventory_menu",
+      "values": [
+        {
+          "name": "items",
+          "value": {
+            "type": "array",
+            "values": [
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{}"
+              },
+              {
+                "type": "item",
+                "item": "{Count:1b,id:\"minecraft:black_stained_glass_pane\",tag:{display:{Name:\u0027{\"text\":\"\",\"extra\":[\"\",\" \"],\"italic\":false}\u0027}}}"
+              },
+              {
+                "type": "item",
+                "item": "{Count:1b,id:\"minecraft:black_stained_glass_pane\",tag:{display:{Name:\u0027{\"text\":\"\",\"extra\":[\"\",\" \"],\"italic\":false}\u0027}}}"
+              },
+              {
+                "type": "item",
+                "item": "{Count:1b,id:\"minecraft:black_stained_glass_pane\",tag:{display:{Name:\u0027{\"text\":\"\",\"extra\":[\"\",\" \"],\"italic\":false}\u0027}}}"
+              },
+              {
+                "type": "item",
+                "item": "{Count:1b,id:\"minecraft:black_stained_glass_pane\",tag:{display:{Name:\u0027{\"text\":\"\",\"extra\":[\"\",\" \"],\"italic\":false}\u0027}}}"
+              },
+              {
+                "type": "item",
+                "item": "{Count:1b,id:\"minecraft:black_stained_glass_pane\",tag:{display:{Name:\u0027{\"text\":\"\",\"extra\":[\"\",\" \"],\"italic\":false}\u0027}}}"
+              },
+              {
+                "type": "item",
+                "item": "{Count:1b,id:\"minecraft:black_stained_glass_pane\",tag:{display:{Name:\u0027{\"text\":\"\",\"extra\":[\"\",\" \"],\"italic\":false}\u0027}}}"
+              },
+              {
+                "type": "item",
+                "item": "{Count:1b,id:\"minecraft:black_stained_glass_pane\",tag:{display:{Name:\u0027{\"text\":\"\",\"extra\":[\"\",\" \"],\"italic\":false}\u0027}}}"
+              },
+              {
+                "type": "item",
+                "item": "{Count:1b,id:\"minecraft:black_stained_glass_pane\",tag:{display:{Name:\u0027{\"text\":\"\",\"extra\":[\"\",\" \"],\"italic\":false}\u0027}}}"
+              },
+              {
+                "type": "item",
+                "item": "{Count:1b,id:\"minecraft:black_stained_glass_pane\",tag:{display:{Name:\u0027{\"text\":\"\",\"extra\":[\"\",\" \"],\"italic\":false}\u0027}}}"
+              }
+            ]
+          }
+        },
+        {
+          "name": "size",
+          "value": {
+            "type": "number",
+            "number": 3.0
+          }
+        }
+      ]
+    },
+    {
+      "action": "repeat_for_each_in_list",
+      "values": [
+        {
+          "name": "index_variable",
+          "value": {
+            "type": "variable",
+            "variable": "number",
+            "scope": "local"
+          }
+        },
+        {
+          "name": "value_variable",
+          "value": {
+            "type": "variable",
+            "variable": "player",
+            "scope": "local"
+          }
+        },
+        {
+          "name": "list",
+          "value": {
+            "type": "variable",
+            "variable": "players",
+            "scope": "local"
+          }
+        }
+      ],
+      "operations": [
+        {
+          "action": "select_player_by_conditional",
+          "values": [
+            {
+              "name": "names_or_uuids",
+              "value": {
+                "type": "array",
+                "values": [
+                  {
+                    "type": "variable",
+                    "variable": "player",
+                    "scope": "local"
+                  },
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {}
+                ]
+              }
+            }
+          ],
+          "conditional": {
+            "action": "if_player_name_equals",
+            "is_inverted": "false"
+          }
+        },
+        {
+          "action": "set_variable_get_player_head",
+          "values": [
+            {
+              "name": "variable",
+              "value": {
+                "type": "variable",
+                "variable": "player_item",
+                "scope": "local"
+              }
+            },
+            {
+              "name": "name_or_uuid",
+              "value": {
+                "type": "variable",
+                "variable": "player",
+                "scope": "local"
+              }
+            }
+          ]
+        },
+        {
+          "action": "set_variable_value",
+          "values": [
+            {
+              "name": "variable",
+              "value": {
+                "type": "variable",
+                "variable": "display_name",
+                "scope": "local"
+              }
+            },
+            {
+              "name": "value",
+              "value": {
+                "type": "game_value",
+                "game_value": "display_name",
+                "selection": "{\"type\":\"current\"}"
+              }
+            }
+          ]
+        },
+        {
+          "action": "set_variable_set_item_name",
+          "values": [
+            {
+              "name": "variable",
+              "value": {
+                "type": "variable",
+                "variable": "player_item",
+                "scope": "local"
+              }
+            },
+            {
+              "name": "item",
+              "value": {
+                "type": "variable",
+                "variable": "player_item",
+                "scope": "local"
+              }
+            },
+            {
+              "name": "text",
+              "value": {
+                "type": "text",
+                "text": "0",
+                "parsing": "legacy"
+              }
+            }
+          ]
+        },
+        {
+          "action": "set_variable_set_item_lore",
+          "values": [
+            {
+              "name": "lore",
+              "value": {
+                "type": "array",
+                "values": [
+                  {
+                    "type": "text",
+                    "text": "",
+                    "parsing": "legacy"
+                  },
+                  {
+                    "type": "text",
+                    "text": "\u0026fИгрок \u0026e№1",
+                    "parsing": "legacy"
+                  },
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {}
+                ]
+              }
+            },
+            {
+              "name": "variable",
+              "value": {
+                "type": "variable",
+                "variable": "player_item",
+                "scope": "local"
+              }
+            },
+            {
+              "name": "item",
+              "value": {
+                "type": "variable",
+                "variable": "player_item",
+                "scope": "local"
+              }
+            }
+          ]
+        },
+        {
+          "action": "select_reset",
+          "values": []
+        },
+        {
+          "action": "if_player_has_room_for_item",
+          "values": [
+            {
+              "name": "items",
+              "value": {
+                "type": "array",
+                "values": [
+                  {
+                    "type": "variable",
+                    "variable": "player_item",
+                    "scope": "local"
+                  },
+                  {
+                    "type": "item",
+                    "item": "{}"
+                  },
+                  {
+                    "type": "item",
+                    "item": "{}"
+                  },
+                  {
+                    "type": "item",
+                    "item": "{}"
+                  },
+                  {
+                    "type": "item",
+                    "item": "{}"
+                  },
+                  {
+                    "type": "item",
+                    "item": "{}"
+                  },
+                  {
+                    "type": "item",
+                    "item": "{}"
+                  },
+                  {
+                    "type": "item",
+                    "item": "{}"
+                  },
+                  {
+                    "type": "item",
+                    "item": "{}"
+                  },
+                  {
+                    "type": "item",
+                    "item": "{}"
+                  },
+                  {
+                    "type": "item",
+                    "item": "{}"
+                  },
+                  {
+                    "type": "item",
+                    "item": "{}"
+                  },
+                  {
+                    "type": "item",
+                    "item": "{}"
+                  },
+                  {
+                    "type": "item",
+                    "item": "{}"
+                  },
+                  {
+                    "type": "item",
+                    "item": "{}"
+                  },
+                  {
+                    "type": "item",
+                    "item": "{}"
+                  },
+                  {
+                    "type": "item",
+                    "item": "{}"
+                  },
+                  {
+                    "type": "item",
+                    "item": "{}"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "checked_slots",
+              "value": {
+                "type": "enum",
+                "enum": "UPPER_INVENTORY"
+              }
+            }
+          ],
+          "operations": [
+            {
+              "action": "control_stop_repeat",
+              "values": []
+            }
+          ],
+          "is_inverted": "true"
+        },
+        {
+          "action": "player_set_inventory_menu_item",
+          "values": [
+            {
+              "name": "item",
+              "value": {
+                "type": "variable",
+                "variable": "player_item",
+                "scope": "local"
+              }
+            },
+            {
+              "name": "slot",
+              "value": {
+                "type": "variable",
+                "variable": "number",
+                "scope": "local"
+              }
+            }
+          ]
+        },
+        {
+          "action": "control_wait",
+          "values": [
+            {
+              "name": "duration",
+              "value": {
+                "type": "number",
+                "number": 3.0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "values": [
+    {
+      "name": "description",
+      "value": {
+        "type": "array",
+        "values": [
+          {},
+          {
+            "type": "text",
+            "text": "\u00267Открывает список игроков",
+            "parsing": "legacy"
+          },
+          {
+            "type": "text",
+            "text": "\u00267в качестве инвентаря.",
+            "parsing": "legacy"
+          },
+          {
+            "type": "text",
+            "text": "",
+            "parsing": "legacy"
+          },
+          {
+            "type": "text",
+            "text": "Настройки:",
+            "parsing": "legacy"
+          },
+          {
+            "type": "text",
+            "text": "\u00262Переменная\u0026a players \u00268- \u00267Список, по которому",
+            "parsing": "legacy"
+          },
+          {
+            "type": "text",
+            "text": "\u00267нужно проходиться.",
+            "parsing": "legacy"
+          },
+          {
+            "type": "text",
+            "text": "",
+            "parsing": "legacy"
+          },
+          {
+            "type": "text",
+            "text": "Автор: \u0026aPlanet\u0026f SachaLucky",
+            "parsing": "legacy"
+          },
+          {
+            "type": "text",
+            "text": "aka. \u0026aPlanet\u0026f SachaLucky2",
+            "parsing": "legacy"
+          },
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    },
+    {
+      "name": "is_hidden",
+      "value": {
+        "type": "enum",
+        "enum": "FALSE"
+      }
+    },
+    {
+      "name": "icon",
+      "value": {
+        "type": "item",
+        "item": "{Count:1b,id:\"minecraft:player_head\",tag:{HideFlags:255,display:{Lore:[\u0027{\"italic\":false,\"color\":\"gray\",\"text\":\"Открывает список игроков\"}\u0027,\u0027{\"italic\":false,\"color\":\"gray\",\"text\":\"в качестве инвентаря.\"}\u0027,\u0027{\"italic\":false,\"color\":\"white\",\"text\":\"\"}\u0027,\u0027{\"italic\":false,\"color\":\"white\",\"text\":\"Настройки:\"}\u0027,\u0027{\"italic\":false,\"color\":\"white\",\"extra\":[{\"color\":\"dark_green\",\"text\":\"Переменная\"},{\"color\":\"green\",\"text\":\" players \"},{\"color\":\"dark_gray\",\"text\":\"- \"},{\"color\":\"gray\",\"text\":\"Список, по которому\"}],\"text\":\"\"}\u0027,\u0027{\"italic\":false,\"color\":\"gray\",\"text\":\"нужно проходиться.\"}\u0027,\u0027{\"italic\":false,\"color\":\"white\",\"text\":\"\"}\u0027,\u0027{\"italic\":false,\"color\":\"white\",\"extra\":[{\"color\":\"green\",\"text\":\"Planet\"},{\"color\":\"white\",\"text\":\" SachaLucky\"}],\"text\":\"Автор: \"}\u0027,\u0027{\"italic\":false,\"color\":\"white\",\"extra\":[{\"color\":\"green\",\"text\":\"Planet\"},{\"color\":\"white\",\"text\":\" SachaLucky2\"}],\"text\":\"aka. \"}\u0027,\u0027\"\"\u0027,\u0027{\"italic\":false,\"color\":\"#7A8085\",\"text\":\"Нажмите Правой кнопкой, чтобы\"}\u0027,\u0027{\"italic\":false,\"color\":\"#7A8085\",\"text\":\"телепортироваться к функции\"}\u0027],Name:\u0027{\"italic\":false,\"color\":\"yellow\",\"text\":\"Открыть список игроков\"}\u0027}}}"
+      }
+    }
+  ],
+  "name": "Открыть список игроков"
+}
